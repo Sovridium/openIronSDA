@@ -1,0 +1,31 @@
+# Template: Intent-First FBP Node
+node_id: "ID_STRING"
+version: "1.0.0"
+type: "CONTROLLER | SENSOR | ACTUATOR | LOGIC_GATE"
+
+intent:
+  narrative: "Detailed high-level description of what this node represents in human terms."
+  safety_case: "Description of safety constraints (e.g., HazOp findings)."
+  simulation_model: "Behavioral model for digital twin verification (e.g., Transfer Function)."
+
+flow:
+  inlets:
+    - id: "IN_1"
+      type: "FLOAT | BOOL | INT"
+      intent: "Description of the data coming in."
+    - id: "IN_2"
+      type: "FLOAT | BOOL | INT"
+      intent: "Description of the data coming in."
+
+  outlets:
+    - id: "OUT_1"
+      type: "FLOAT | BOOL | INT"
+      intent: "Description of the result being output."
+
+mapping:
+  physical_io: null # To be populated by deployment agent
+  trust_level: "SECURE_BOOT | ENCRYPTED | PLAIN"
+
+logic_scaffold: |
+  // Illustrative pseudo-code for synthesis reference
+  // if (IN_1 > limit) { OUT_1 = forced_value }
