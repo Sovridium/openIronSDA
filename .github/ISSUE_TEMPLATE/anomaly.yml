@@ -1,0 +1,38 @@
+name: "🛑 Axiomatic Anomaly"
+description: "Report a deviation from the expected causal intent (Bug)."
+title: "[ANOMALY]: "
+labels: ["anomaly", "rank-omega-risk"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Axiomatic Anomaly Detection
+        A vulnerability or bug has been detected in the causal substrate.
+  - type: textarea
+    id: description
+    attributes:
+      label: "Causal Description"
+      description: "What was the observed deviation?"
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: "Rank Ω Impact"
+      options:
+        - "Level 1: Minor Inconsistency"
+        - "Level 2: Moderate Friction"
+        - "Level 3: Critical Deterministic Gap"
+        - "Level 4: Rank Ω Safety Risk"
+    validations:
+      required: true
+  - type: textarea
+    id: ancestry
+    attributes:
+      label: "Ancestry Hypothesis"
+      description: "Initial CCA thoughts on the cause."
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "Evidence Binding"
+      description: "Logs, telemetry, or screenshots."

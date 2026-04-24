@@ -34,13 +34,25 @@ This document defines the mandated GitHub repository settings for the **openIron
     - *Constraint*: ALL documentation must reside in the repository as Markdown files to ensure versioned intent.
 - **Issues**: **ENABLED**.
     - *Task Tracking*: Use lightweight task tracking integrated with milestones.
-    - *Templates*: Utilize the **Five Voices** issue templates to cut through noise and anchor feedback.
+    - *Templates*: Utilize the **Sovereign Issue Forms** in `.github/ISSUE_TEMPLATE/` (Axiomatic Anomaly, Strategic Intent, Voice Induction) to cut through noise and anchor feedback.
 - **Sponsorships**: **ENABLED** (Optional).
     - *Display "Sponsor" Button*: Authorized for community-driven research of the **7 Navigation Routes.**
 - **Preserve this repository**: **ENABLED**.
     - *GitHub Archive Program*: Mandatory inclusion in the Arctic Code Vault for long-term "Causal DNA" preservation.
 - **Discussions**: **ENABLED**.
     - *Purpose*: Primary space for **VoC** (Voice of the Customer) and **CAB** strategic conversations.
+    - *Axiomatic Welcome Body*: 
+        ```markdown
+        ## 👋 Welcome, Sovereign Architects!
+        We are using Discussions as the primary **Valence Channel** for the **openIronSDA** foundry. This is the space where the **Five Voices** converge to define the future of industrial autonomy.
+        
+        **The Aesthetic of Participation:**
+        - **FEEL**: Aim for **Frictionless Authority** and tranquility in your coordination.
+        - **TASTE**: Ensure your feedback has the taste of **Bit-Perfect Integrity**.
+        - **LOOK**: Strive for **Deterministic Clarity** in the solutions you propose.
+        
+        To get started, introduce your "Professional Voice" (VoC, VoI, or VoD) and tell us how you intend to use this foundry to secure industrial sovereignty.
+        ```
 - **Projects**: **ENABLED**.
     - *Purpose*: Link to the **Strategic Roadmap** Projects to track Navigation Route convergence.
 

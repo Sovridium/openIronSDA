@@ -1,0 +1,29 @@
+name: "🗣️ Voice Induction"
+description: "Speak your voice into the project substrate (General Feedback)."
+title: "[VOICE]: "
+labels: ["feedback", "valence"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Voice Induction
+        Contributing to the project's feedback lattice.
+  - type: dropdown
+    id: voice_type
+    attributes:
+      label: "Select Your Voice"
+      options:
+        - "VoC (Customer)"
+        - "VoI (Integrator)"
+        - "VoD (Developer)"
+        - "VoA (Agent)"
+        - "CAB (Strategic Advisory)"
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: "Feedback Synthesis"
+      description: "Express your observation, concern, or encouragement."
+    validations:
+      required: true

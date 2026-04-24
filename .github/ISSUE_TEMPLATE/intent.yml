@@ -1,0 +1,41 @@
+name: "🚀 Strategic Intent"
+description: "Propose a new strategic goal or Navigation Route (Feature)."
+title: "[INTENT]: "
+labels: ["intent", "route-proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Strategic Intent Proposal
+        Architecting the next phase of the E3 Ecosystem.
+  - type: textarea
+    id: goal
+    attributes:
+      label: "Human Strategic Goal"
+      description: "What are we trying to achieve?"
+    validations:
+      required: true
+  - type: dropdown
+    id: voice
+    attributes:
+      label: "Voice of Origin"
+      options:
+        - "VoC (Customer)"
+        - "VoI (Integrator)"
+        - "VoD (Developer)"
+        - "VoA (Agent)"
+        - "CAB (Strategic Advisory)"
+    validations:
+      required: true
+  - type: textarea
+    id: success
+    attributes:
+      label: "Acceptance Signals"
+      description: "What does success FEEL, TASTE, and LOOK like?"
+    validations:
+      required: true
+  - type: textarea
+    id: e3_alignment
+    attributes:
+      label: "E3 Alignment"
+      description: "How does this support human flourishing and sovereignty?"
