@@ -25,5 +25,8 @@ To maintain the **Substrate Integrity** and **Sovereign Status** of **openIronSD
 ### 4. GitHub Pages
 - **Deployment**: **ENABLED**. Host from `/docs` folder.
 
+### 5. Social Preview
+- **Image**: Use the generated Rank Ω preview located at `docs/assets/social_preview.png`. This maintains the **Industrial Divine** aesthetic across all discovery channels.
+
 ---
 *The settings are the bolts of the vault. Do not loosen them.*
