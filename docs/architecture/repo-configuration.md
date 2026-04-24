@@ -9,6 +9,7 @@ To maintain the **Substrate Integrity** and **Sovereign Status** of **openIronSD
 - **Discussions**: **ENABLED**. Source for **VoC** and **CAB** strategic feedback.
 - **Issues**: **ENABLED**. Tracking for **Strategic Intents** and **Anomalies**.
 - **Wikis**: **DISABLED**. All documentation resides in version-controlled `.md` files.
+- **Release Immutability**: **ENABLED**. Once a specification set reaches **Rank Ω** and is released, it must remain immutable to satisfy industrial audit standards.
 
 ### 2. Convergence Logic (Merging)
 - **Allow squash merging**: **ENABLED**.
